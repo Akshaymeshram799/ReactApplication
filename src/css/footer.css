@@ -1,0 +1,14 @@
+.mainF{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    background-color: rgb(247, 237, 101);
+    justify-content: center;
+}
+
+@media screen and (max-width:376px) {
+   .mainF{
+       margin-top: 400px;
+       width: 100%;
+   }
+}

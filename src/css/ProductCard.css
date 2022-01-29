@@ -1,0 +1,44 @@
+.product{
+    width: 28%;
+    height: 40vh;
+    border: 4px solid rgb(238, 238, 238);
+    margin: 25px 0;
+    border-radius:15px 15px 0 0 ;
+    overflow: hidden;
+}
+
+.nav{
+    width: 100%;
+    height: 20px;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    position: sticky;
+    z-index: 2;
+}
+
+.circle{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 50%;
+    
+}
+
+.img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 8s ease;
+}
+
+.img:hover img{
+   transform: translateY(-80%);
+}
+
+@media screen and (max-width:376px){
+    .product {
+        width: 100%;        
+    }
+}

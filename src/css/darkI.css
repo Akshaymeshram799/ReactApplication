@@ -1,0 +1,22 @@
+.di{
+    width: 51px;
+    height: 25px;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    z-index: 50;
+}
+
+.tb{
+    position: absolute;
+    width: 25px;
+    height: 20px;
+    border-radius: 8px;
+    background-color: blueviolet;
+    left: 21px;
+}
